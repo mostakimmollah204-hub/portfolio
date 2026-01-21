@@ -1,0 +1,228 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <header class="header">
+    <nav class="nav container">
+      <a class="logo" href="#home">BILLAH</a>
+
+      <div class="nav-links">
+        <a href="#intro">自己紹介</a>
+        <a href="#goals">目標</a>
+        <a href="#works">作品</a>
+        <a href="#skills">スキル</a>
+        <a class="btn" href="#contact">連絡</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <!-- HERO -->
+    <section id="home" class="hero">
+      <div class="container hero-grid">
+        <div>
+          <p class="kicker">ポートフォリオ</p>
+          <h1>こんにちは、<span class="accent">BILLAH</span>です。<br/>Web制作とプログラミングを学習中です。</h1>
+          <p class="subtext">
+            シンプルで見やすいデザインと、スマホ対応（レスポンシブ）を意識しています。
+          </p>
+
+          <div class="hero-actions">
+            <a class="btn" href="#works">作品を見る</a>
+            <a class="btn ghost" href="#contact">連絡する</a>
+          </div>
+
+          <div class="mini">
+            <a href="#" aria-label="GitHub">GitHub</a>
+            <span>•</span>
+            <a href="#" aria-label="LinkedIn">LinkedIn</a>
+            <span>•</span>
+            <a href="mailto:mostakimmollah204@gmail.com" aria-label="Email">Email</a>
+          </div>
+        </div>
+
+        <div class="card profile-card">
+          <!-- 写真: 同じフォルダに me.jpg を置く（別名ならここを変更） -->
+          <img class="avatar" src="photo.jpg" alt="BILLAhの写真" />
+
+          <h2 class="card-title">プロフィール</h2>
+          <p class="card-text">
+            学習しながら小さな制作を積み上げて、確実にスキルアップしています。
+          </p>
+
+          <div class="tags">
+            <span class="tag">HTML</span>
+            <span class="tag">CSS</span>
+            <span class="tag">JavaScript</span>
+            <span class="tag">Java</span>
+            <span class="tag">Word</span>
+            <span class="tag">Excel</span>
+            <span class="tag">PowerPoint</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 自己紹介 -->
+    <section id="intro" class="section">
+      <div class="container">
+        <h2>自己紹介</h2>
+        <p class="lead">基本情報とスキルをまとめます。</p>
+
+        <div class="two-col">
+          <div class="card">
+            <h3>基本情報</h3>
+            <ul>
+              <li><strong>氏名：</strong>BILLAH MD MUSTAKIM</li>
+              <li><strong>目指す職業：</strong>例：システムエンジニア / ネットワークエンジニア / サーバーエンジニア</li>
+            </ul>
+          </div>
+
+          <div class="card">
+            <h3>スキル</h3>
+            <ul>
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>JavaScript</li>
+              <li>Java</li>
+              <li>Microsoft Word</li>
+              <li>Microsoft Excel</li>
+              <li>Microsoft PowerPoint</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="card mt">
+          <h3>自己紹介文</h3>
+          <p class="muted">
+はじめまして。  
+私はビーラ　エムディ　モスタキムです。  
+現在、早稲田文理専門学校のアプリ・WEB制作学科で学んでおり、HTML、CSS、JavaScript、Java、などのスキルがあります。  
+
+学生時代から、ウェブサイト制作やプログラミングに興味があり、実際に自分でポートフォリオや小規模なアプリを制作した経験があります。  
+
+将来は、使いやすく美しいウェブサイトやアプリを作れるプロの開発者になることを目指しています。  
+どうぞよろしくお願いします。
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- 目標 -->
+    <section id="goals" class="section">
+      <div class="container">
+        <h2>目標</h2>
+        <p class="lead">これから伸ばしたいスキルと、将来やりたい仕事を整理します。</p>
+
+        <div class="two-col">
+          <div class="card">
+            <h3>これから身に着けたいスキル</h3>
+            <ul>
+              <li>JavaScript（DOM操作、API連携）</li>
+              <li>Java（基礎文法、オブジェクト指向）</li>
+              <li>Git / GitHub（チーム開発の流れ）</li>
+              <li>基本的なセキュリティ・ネットワーク</li>
+            </ul>
+          </div>
+
+          <div class="card">
+            <h3>将来の目標</h3>
+            <ul>
+              <li>ユーザーが使いやすいWebサイトやWebアプリを作る仕事がしたい</li>
+              <li>チームで開発しながら技術力を高めたい</li>
+              <li>実務で役立つ設計や運用も学びたい</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- スキル（棒グラフ） -->
+    <section id="skills" class="section">
+      <div class="container">
+        <h2>スキル</h2>
+
+        <div class="skills">
+          <div class="skill">
+            <div class="skill-top"><span>HTML</span><span>90%</span></div>
+            <div class="bar"><div class="fill" style="width: 90%"></div></div>
+          </div>
+
+          <div class="skill">
+            <div class="skill-top"><span>CSS</span><span>85%</span></div>
+            <div class="bar"><div class="fill" style="width: 85%"></div></div>
+          </div>
+
+          <div class="skill">
+            <div class="skill-top"><span>JavaScript</span><span>60%</span></div>
+            <div class="bar"><div class="fill" style="width: 60%"></div></div>
+          </div>
+
+          <div class="skill">
+            <div class="skill-top"><span>Java</span><span>55%</span></div>
+            <div class="bar"><div class="fill" style="width: 55%"></div></div>
+          </div>
+
+          <div class="skill">
+            <div class="skill-top"><span>Microsoft Word</span><span>80%</span></div>
+            <div class="bar"><div class="fill" style="width: 80%"></div></div>
+          </div>
+
+          <div class="skill">
+            <div class="skill-top"><span>Microsoft Excel</span><span>85%</span></div>
+            <div class="bar"><div class="fill" style="width: 85%"></div></div>
+          </div>
+
+          <div class="skill">
+            <div class="skill-top"><span>Microsoft PowerPoint</span><span>80%</span></div>
+            <div class="bar"><div class="fill" style="width: 80%"></div></div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section">
+      <div class="container">
+        <h2>連絡</h2>
+        <p class="lead">フロントのみ（mailto）です。</p>
+
+        <div class="card">
+          <form class="form" action="mailto:mostakimmollah204@gmail.com" method="post" enctype="text/plain">
+            <label>
+              お名前
+              <input type="text" name="name" placeholder="Your name" required />
+            </label>
+
+            <label>
+              メール
+              <input type="email" name="email" placeholder="your@email.com" required />
+            </label>
+
+            <label>
+              メッセージ
+              <textarea name="message" rows="5" placeholder="Write your message..." required></textarea>
+            </label>
+
+            <button class="btn" type="submit">送信</button>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <p>© 2026 Mostamik Mollah</p>
+      <p class="muted">Built with HTML + CSS</p>
+    </div>
+  </footer>
+</body>
+</html>
